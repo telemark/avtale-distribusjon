@@ -1,0 +1,2 @@
+# avtale-distribusjon
+Distribute avtaler
