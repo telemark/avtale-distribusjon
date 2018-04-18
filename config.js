@@ -10,6 +10,8 @@ module.exports = {
   ERRORS_DIRECTORY_PATH: process.env.ERRORS_DIRECTORY_PATH || 'test/directories/errors',
   RETRIES_DIRECTORY_PATH: process.env.RETRIES_DIRECTORY_PATH || 'test/directories/retries',
   QUEUE_DIRECTORY_PATH: process.env.QUEUE_DIRECTORY_PATH || 'test/directories/queue',
+  SVARUT_JWT_SECRET: process.env.SVARUT_JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
+  SVARUT_SERVICE_URL: process.env.SVARUT_SERVICE_URL || 'https://api.svarut.no/sendForsendelse',
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || pkg.name,
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
