@@ -1,0 +1,53 @@
+{
+  "_id": "472511ea22014805a7580d48519f7f48",
+  "agreementId": "bd5a34723e2b4c639ef5d66c275740d4",
+  "agreementUserId": "01010750160",
+  "shipment": {
+    "tittel": "Avtale fra Telemark fylkeskommune",
+    "avgivendeSystem": "avtale-generator",
+    "konteringskode": "1161",
+    "krevNiva4Innlogging": false,
+    "kryptert": false,
+    "kunDigitalLevering": false,
+    "printkonfigurasjon": {
+      "brevtype": "APOST",
+      "fargePrint": true,
+      "tosidig": false
+    },
+    "signaturtype": "AUTENTISERT_SIGNATUR",
+    "signeringUtloper": "2018-04-19T11:05:13.243Z",
+    "svarPaForsendelseLink": false,
+    "metadataForImport": {
+      "dokumentetsDato": "2018-04-18T11:05:13.243Z",
+      "journalposttype": "Dokument inn",
+      "journalstatus": "J",
+      "saksaar": "16",
+      "sakssekvensnummer": "08185",
+      "tittel": "Avtale fra Telemark fylkeskommune"
+    },
+    "svarSendesTil": {
+      "orgnr": "940192226",
+      "navn": "Telemark fylkeskommune",
+      "adresse1": "Postboks 2844",
+      "postnr": "3702",
+      "poststed": "Skien"
+    }
+  },
+  "documents": [
+    {
+      "data": "JVBERi0xLlRU9GCg==",
+      "filnavn": "avtale-bd5a34723e2b4c639ef5d66c275740d4.pdf",
+      "mimetype": "application/pdf",
+      "skalSigneres": true
+    }
+  ],
+  "recipents": [
+    {
+      "navn": "Hallgrim Durk",
+      "adresse1": "Konglestredet 98",
+      "postnr": "1732",
+      "poststed": "Høtten",
+      "fnr": "01010750160"
+    }
+  ]
+}
