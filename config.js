@@ -10,6 +10,8 @@ module.exports = {
   ERRORS_DIRECTORY_PATH: process.env.ERRORS_DIRECTORY_PATH || 'test/directories/errors',
   RETRIES_DIRECTORY_PATH: process.env.RETRIES_DIRECTORY_PATH || 'test/directories/retries',
   QUEUE_DIRECTORY_PATH: process.env.QUEUE_DIRECTORY_PATH || 'test/directories/queue',
+  AGREEMENTS_LOG_URL: process.env.AGREEMENTS_LOG_URL || 'https://log.service.io/agreements',
+  AGREEMENTS_JWT_SECRET: process.env.AGREEMENTS_JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   AGREEMENTS_SERVICE_URL: process.env.AGREEMENTS_SERVICE_URL || 'https://agreements.service.io/agreements',
   SVARUT_JWT_SECRET: process.env.SVARUT_JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   SVARUT_SERVICE_URL: process.env.SVARUT_SERVICE_URL || 'https://api.svarut.no/sendForsendelse',
