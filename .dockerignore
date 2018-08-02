@@ -1,0 +1,7 @@
+.env
+.travis.yml
+docker.env
+node_modules
+package-lock.json
+renovate.json
+test
