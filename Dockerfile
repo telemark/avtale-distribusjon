@@ -1,4 +1,4 @@
-FROM node:10.14.0-alpine
+FROM node:10.14.1-alpine
 
 # Installs git
 RUN apk add --update --no-cache git
