@@ -3,7 +3,9 @@
 
 # avtale-distribusjon
 
-Distribute avtaler via SvarUT
+Distribute avtaler via SvarUT.
+
+Register job for agreementservice if provided.
 
 ## Setup
 
@@ -16,7 +18,6 @@ DONE_DIRECTORY_PATH=test/directories/done
 ERRORS_DIRECTORY_PATH=test/directories/errors
 RETRIES_DIRECTORY_PATH=test/directories/retries
 QUEUE_DIRECTORY_PATH=test/directories/queue
-AGREEMENTS_LOG_URL=https://log.service.io/agreements
 SVARUT_JWT_SECRET=Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go
 SVARUT_SERVICE_URL=https://api.svarut.no/sendForsendelse
 PAPERTRAIL_HOSTNAME=avtale-distribusjon
@@ -44,10 +45,8 @@ This will start a container. Distribute the documents. Stop the container and re
 - [avtale-generator](https://github.com/telemark/avtale-generator)
 - [robot-convert-docx-to-pdf](https://github.com/telemark/robot-convert-docx-to-pdf)
 - [robot-post-payload](https://github.com/telemark/robot-post-payload)
-- [avtale-logg](https://github.com/telemark/avtale-logg)
+- [ms-shared-api-avtaler](https://github.com/vtfk/ms-shared-api-avtaler)
 
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of avtale-distribusjon](https://robots.kebabstudios.party/avtale-distribusjon.png "Robohash image of avtale-distribusjon")
